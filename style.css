@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #00041f;
+
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 2px;
+}
+
+.profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 2%;
+    height: auto;
+    max-width: 200px;
+
+    border-radius: 50%;
+}
+
+.profile-name {
+    text-align: center;
+
+    padding: 30px;
+    font-size: 28px;
+}
+
+
+.youtube {
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid red;
+    border-width: 2px;
+    padding: 20px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    transition: all ease 1s;
+}
+
+.insta {
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid #ff00f7;
+    border-width: 2px;
+    padding: 20px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    transition: all ease 1s;
+}
+
+.telegram {
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid #00b3ff;
+    border-width: 2px;
+    padding: 20px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    transition: all ease 1s;
+}
+
+.tiktok {
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid #005eff;
+    border-width: 2px;
+    padding: 20px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    transition: all ease 1s;
+}
+
+.games {
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid #6563ff;
+    border-width: 2px;
+    padding: 20px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 0 20px #6563ff;
+    transition: all ease 1s;
+}
+
+
+.youtube:hover {
+    background-color: red;
+    box-shadow: 0 0 20px red;
+}
+
+.insta:hover {
+    background-color: #ff00f7;
+    box-shadow: 0 0 20px #ff00f7;
+}
+
+.telegram:hover {
+    background-color: #00b3ff;
+    box-shadow: 0 0 20px #00b3ff;
+}
+
+.tiktok:hover {
+    background-color: #005eff;
+    box-shadow: 0 0 20px #005eff;
+}
+
+.games:hover {
+    background-color: #6563ff;
+    box-shadow: 0 0 20px #6563ff;
+}
+
+
+
+
+
+
+.aqua_global_info_text {
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.aqua_global_info_text b {
+    font-size: 25px;
+}
+
+
+.aqua_global_info_text_2 {
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.aqua_global_info_text_2 b {
+    font-size: 18px;
+}
+
+
+.aqua_global_ppm_tester {
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid #008cff;
+    border-width: 2px;
+    padding: 20px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    transition: all ease 1s;
+}
+
+.aqua_global_ppm_tester:hover {
+    background-color: #008cff;
+    box-shadow: 0 0 20px #008cff;
+}
+
+.aqua_global_produkt {
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid #008cff;
+    border-width: 2px;
+    padding: 20px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    transition: all ease 1s;
+}
+
+.aqua_global_produkt:hover {
+    background-color: #008cff;
+    box-shadow: 0 0 20px #008cff;
+}

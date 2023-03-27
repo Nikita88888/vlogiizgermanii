@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #00041f;
+
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 2px;
+}
+
+.profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 2%;
+    height: auto;
+    max-width: 200px;
+
+    border-radius: 50%;
+}
+
+.profile-name {
+    text-align: center;
+
+    padding: 30px;
+    font-size: 28px;
+}
+
+
+.youtube {
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid red;
+    border-width: 2px;
+    padding: 20px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    transition: all ease 1s;
+}
+
+.btn_goal {
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid red;
+    border-width: 2px;
+    padding: 20px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    transition: all ease 1s;
+    animation: goal 2s infinite;
+}
+.goal_box {
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid red;
+    border-width: 2px;
+    padding: 20px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    transition: all ease 1s;
+}
+#goal_box {
+    display: none;
+}
+
+
+.youtube:hover {
+    background-color: red;
+    box-shadow: 0 0 20px red;
+}
+
+.goal {
+    font-size: 20px;
+    animation: goal 2s infinite;
+}
+
+@keyframes goal {
+    0% {
+        color: #ff4f4f;
+        border-color: #ff4f4f;
+    }
+    14% {
+        color: #a1ff3d;
+        border-color: #a1ff3d;
+    }
+    28% {
+        color: #3dffbe;
+        border-color: #3dffbe;
+    }
+    40% {
+        color: #3dc8f7;
+        border-color: #3dc8f7;
+    }
+    55% {
+        color: #4965ff;
+        border-color: #4965ff;
+    }
+    65% {
+        color: #9149ff;
+        border-color: #9149ff;
+    }
+    80% {
+        color: #ff49ff;
+        border-color: #ff49ff;
+    }
+    100% {
+        color: #ff4f4f;
+        border-color: #ff4f4f;
+    }
+}

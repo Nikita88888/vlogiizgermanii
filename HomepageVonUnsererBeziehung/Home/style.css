@@ -6,7 +6,8 @@
 
 body {
     background: #023e8a;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
+    text-align: center;
 }
 
 #title {
@@ -94,7 +95,7 @@ body {
 }
 #liste ol {
     list-style-position: inside;
-    font-size: 20px;
+    font-size: 15px;
 }
 #liste a {
     text-decoration: none;

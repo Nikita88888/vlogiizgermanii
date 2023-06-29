@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+body {
+    background: #023e8a;
+    padding-bottom: 25px;
+}
+
+#titleBox {
+    width: 250px;
+    height: auto;
+    background: #0077b6;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid #00b4d8;
+    box-shadow: 12px 12px 2px 1px rgba(0, 119, 182, .5);
+}
+#titleBox:first-child {
+    color: white;
+    font-size: 25px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+    text-align: center;
+}
+
+#j22Box{
+    width: 250px;
+    height: auto;
+    background: #0077b6;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid #00b4d8;
+    box-shadow: 12px 12px 2px 1px rgba(0, 119, 182, .5);
+    text-align: center;
+}
+#j22Box span {
+    color: white;
+    font-size: 25px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+}
+
+#fotoBox {
+    margin-top: 25px;
+}
+#fotoBox #spanTitle {
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+}
+#fotoBox #spanText {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+#fotoBox img {
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 2px solid white;
+}

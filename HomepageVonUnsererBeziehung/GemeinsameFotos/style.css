@@ -57,6 +57,30 @@ body {
     text-underline-offset: 2px;
 }
 
+#j23Box{
+    width: 250px;
+    height: auto;
+    background: #0077b6;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid #00b4d8;
+    box-shadow: 12px 12px 2px 1px rgba(0, 119, 182, .5);
+    text-align: center;
+}
+#j23Box span {
+    color: white;
+    font-size: 25px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+}
+
 #fotoBox {
     margin-top: 25px;
 }

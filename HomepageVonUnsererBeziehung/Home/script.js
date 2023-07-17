@@ -12,7 +12,7 @@ dreiUndZwanzig_btn.onclick = function () {
             alert("Das Eingabefeld ist leer.")
         }
         else if (dreiUndZwanzig_password_input_value == "14.07.2023") {
-            alert("Das Password ist richtig. Drücke Ok, um den Text anzuzeigen.")
+            alert("Das Password ist richtig.")
             dreiUndZwanzig_btn.style.display = "none";
             dreiUndZwanzig_text.style.display = "block";
         }

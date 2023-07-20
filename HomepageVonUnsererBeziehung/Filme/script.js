@@ -394,4 +394,9 @@ function filmDetailsAnzeigen(film) {
     title.style.display = "none";
     filmeBox.style.display = "none";
     filmDetails.style.display = "block";
+
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
 }

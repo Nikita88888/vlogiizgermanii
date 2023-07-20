@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filme</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../scrollbar.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <div id="title" style="display: block;">
+        <span>Filme</span>
+    </div>
+
+    <div id="filmeBox" style="display: block;">
+        <div id="menu">
+            <button id="nichtGegucktBtn" style="background: #00b4d8;" onclick="menuBtn('nichtGeguckt')">Nicht Geguckt</button>
+            <button id="gegucktBtn" style="background: #0096c7;" onclick="menuBtn('geguckt')">Geguckt</button>
+        </div>
+
+        <div id="nichtGegucktBox" style="display: block;">
+            <div id="preview"><img src="src/preview/Elemental.jpg" alt="Elemental" onclick="filmDetailsAnzeigen('Elemental')"></div>
+            <div id="preview"><img src="src/preview/NoHardFeelings.jpg" alt="NoHardFeelings" onclick="filmDetailsAnzeigen('No Hard Feelings')"></div>
+            <div id="preview"><img src="src/preview/Transformers_AufstiegDerBestien.jpg" alt="Transformers_AufstiegDerBestien" onclick="filmDetailsAnzeigen('Transformers: Aufstieg der Bestien')"></div>
+            <div id="preview"><img src="src/preview/TheFlash.jpg" alt="TheFlash" onclick="filmDetailsAnzeigen('The Flash')"></div>
+            <div id="preview"><img src="src/preview/CulpaMía-MeineSchuld.jpg" alt="Culpa Mía - Meine Schuld" onclick="filmDetailsAnzeigen('Culpa Mía - Meine Schuld')"></div>
+            <div id="preview"><img src="src/preview/Venom_LetThereBeCarnage.jpg" alt="Venom_LetThereBeCarnage" onclick="filmDetailsAnzeigen('Venom: Let There Be Carnage')"></div>
+            <div id="preview"><img src="src/preview/TheAmazingSpider-Man.jpg" alt="TheAmazingSpider-Man" onclick="filmDetailsAnzeigen('The Amazing Spider-Man')"></div>
+            <div id="preview"><img src="src/preview/TheAmazingSpider-Man2_RiseOfElectro.jpg" alt="TheAmazingSpider-Man2_RiseOfElectro" onclick="filmDetailsAnzeigen()"></div>
+            <div id="preview"><img src="src/preview/JurassicWorld_EinNeuesZeitalter.jpg" alt="JurassicWorld_EinNeuesZeitalter" onclick="filmDetailsAnzeigen()"></div>
+            <div id="preview"><img src="src/preview/Meg.jpg" alt="Meg" onclick="filmDetailsAnzeigen()"></div>
+            <div id="preview"><img src="src/preview/Meg2_DieTiefe.jpg" alt="Meg2_DieTiefe" onclick="filmDetailsAnzeigen()"></div>
+            <div id="preview"><img src="src/preview/GranTurismo.jpg" alt="GranTurismo"></div>
+            <div id="preview"><img src="src/preview/Baymax–RiesigesRobowabohu.jpg" alt="Baymax–RiesigesRobowabohu" onclick="filmDetailsAnzeigen()"></div>
+            <div id="preview"><img src="src/preview/RalphReichts.jpg" alt="RalphReichts" onclick="filmDetailsAnzeigen()"></div>
+            <div id="preview"><img src="src/preview/ChaosImNetz.jpg" alt="ChaosImNetz" onclick="filmDetailsAnzeigen()"></div>
+            <div id="preview"><img src="src/preview/Cars.jpg" alt="Cars" onclick="filmDetailsAnzeigen()"></div>
+            <div id="preview"><img src="src/preview/Cars2.jpg" alt="Cars2" onclick="filmDetailsAnzeigen()"></div>
+            <div id="preview"><img src="src/preview/Cars3.jpg" alt="Cars3" onclick="filmDetailsAnzeigen()"></div>
+            <div id="preview"><img src="src/preview/FreeGuy.jpg" alt="FreeGuy" onclick="filmDetailsAnzeigen()"></div>
+            <div id="preview"><img src="src/preview/365Tage.jpg" alt="365Tage" onclick="filmDetailsAnzeigen()"></div>
+            <div id="preview"><img src="src/preview/Miraculous_LadybugUNDCatNoir-DerFilm.jpg" alt="Miraculous_LadybugUNDCatNoir-DerFilm" onclick="filmDetailsAnzeigen()"></div>
+            <div id="preview"><img src="src/preview/StrangeWorld.jpg" alt="StrangeWorld" onclick="filmDetailsAnzeigen()"></div>
+            <div id="preview"><img src="src/preview/MazeRunner3.jpg" alt="MazeRunner3" onclick="filmDetailsAnzeigen()"></div>
+            <div id="preview"><img src="src/preview/Mr_UNDMrs_Smith.jpg" alt="Mr_UNDMrs_Smith"></div>
+            <div id="preview"><img src="src/preview/GuardiansOfTheGalaxyVol_3.jpg" alt="GuardiansOfTheGalaxyVol_3" onclick="filmDetailsAnzeigen()"></div>
+            <div id="preview"><img src="src/preview/Kindsköpfe.jpg" alt="Kindsköpfe" onclick="filmDetailsAnzeigen()"></div>
+            <div id="preview"><img src="src/preview/Kindsköpfe2.jpg" alt="Kindsköpfe2" onclick="filmDetailsAnzeigen()"></div>
+            <div id="preview"><img src="src/preview/Avengers_Endgame.jpg" alt="Avengers_Endgame" onclick="filmDetailsAnzeigen()"></div>
+            <div id="preview"><img src="src/preview/MortalKombat.jpg" alt="MortalKombat" onclick="filmDetailsAnzeigen()"></div>
+            <div id="preview"><img src="src/preview/BlueBeetle.jpg" alt="BlueBeetle" onclick="filmDetailsAnzeigen()"></div>
+            <div id="preview"><img src="src/preview/Spider-Man_FarFromHome.jpg" alt="Spider-Man_FarFromHome" onclick="filmDetailsAnzeigen()"></div>
+            <div id="preview"><img src="src/preview/Spider-Man_Homecoming.jpg" alt="Spider-Man_Homecoming" onclick="filmDetailsAnzeigen()"></div>
+            <div id="preview"><img src="src/preview/SexAppeal.jpg" alt="Sex Appeal" onclick="filmDetailsAnzeigen()"></div>
+            <div id="preview"><img src="src/preview/ThroughMyWindow–IchSeheNurDich.jpg" alt="ThroughMyWindow–IchSeheNurDich" onclick="filmDetailsAnzeigen()"></div>
+            <div id="preview"><img src="src/preview/ThroughMyWindow–ÜberDasMeer.jpg" alt="ThroughMyWindow–ÜberDasMeer" onclick="filmDetailsAnzeigen()"></div>
+            <div id="preview"><img src="src/preview/Oppenheimer.jpg" alt="Oppenheimer" onclick="filmDetailsAnzeigen()"></div>
+        </div>
+
+        <div id="gegucktBox" style="display: none;">
+            <span>Nicht Verfügbar</span>
+        </div>
+    </div>
+
+    <div id="filmDetails" style="display: none;">
+        <div id="backBtn"><button onclick="window.location.reload();">Zurück</button></div>
+        
+        <br>
+
+        <div id="filmImg"><img src="src/preview/filmFoto.jpg" alt="Film Bild kann nicht geladen werden." id="filmDetailsImg"></div>
+
+        <br>
+
+        <b><span id="filmTitle">Film Title</span></b>
+
+        <br> <br> <br>
+
+        <span id="platform">Netflix, Disney +, Kino, Illegal</span>
+
+        <br> <br> <br>
+
+        <span id="dauer">Dauer: --h --m</span>
+
+        <br> <br> <br>
+
+        <span id="altersfreigabe">FSK</span>
+
+        <br> <br> <br>
+
+        <span id="veröffentlichungsdatum">jjjj</span>
+
+        <br> <br> <br>
+
+        <span id="kategorie">kategorie</span>
+
+        <br> <br> <br>
+
+        <span id="gegucktDatum">Geguckt am tt.mm.jjjj um hh:mm</span>
+    </div>
+
+</body>
+</html>

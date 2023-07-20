@@ -3,7 +3,9 @@ dreiUndZwanzig_btn = document.getElementById("dreiUndZwanzig_btn");
 dreiUndZwanzig_text = document.getElementById("dreiUndZwanzig_text");
 
 fotosBtn.onclick = function () {
-    window.location.href = "../GemeinsameFotos/index.html";
+    if (confirm("Warnung. Die Website, auf die weiter geleitet wirst lädt direkt viele Fotos und das verbraucht Mobile daten. Willst du wirklich fortfahren?")) {
+        window.location.href = "../GemeinsameFotos/index.html";
+    }
 }
 
 dreiUndZwanzig_btn.onclick = function () {

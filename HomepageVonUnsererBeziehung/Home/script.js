@@ -1,10 +1,17 @@
 fotosBtn = document.getElementById("fotosBtn");
+filmeListeAnschauenBtn = document.getElementById("filmeListeAnschauenBtn");
 dreiUndZwanzig_btn = document.getElementById("dreiUndZwanzig_btn");
 dreiUndZwanzig_text = document.getElementById("dreiUndZwanzig_text");
 
 fotosBtn.onclick = function () {
-    if (confirm("Warnung. Die Website, auf die weiter geleitet wirst lädt direkt viele Fotos und das verbraucht Mobile daten. Willst du wirklich fortfahren?")) {
+    if (confirm("Warnung. Die Website, auf die du weiter geleitet wirst lädt direkt viele Fotos und das verbraucht Mobile daten. Willst du wirklich fortfahren?")) {
         window.location.href = "../GemeinsameFotos/index.html";
+    }
+}
+
+filmeListeAnschauenBtn.onclick = function () {
+    if (confirm("Warnung. Die Website, auf die du weiter geleitet wirst lädt direkt viele Fotos und das verbraucht Mobile daten. Willst du wirklich fortfahren?")) {
+        window.location.href = "../Filme/index.html";
     }
 }
 

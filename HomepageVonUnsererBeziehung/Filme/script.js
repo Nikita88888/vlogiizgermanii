@@ -110,24 +110,24 @@ function filmDetailsAnzeigen(film) {
         kategorie.textContent  = "Action/Abenteuer";
         gegucktDatum.remove();
     }
-    else if (film == "name") {
-        filmDetailsImg.src = "src/preview";
-        filmTitle.textContent  = "name";
-        platform.textContent  = "text";
-        dauer.textContent  = "zeit";
-        altersfreigabe.textContent  = "FSK";
-        veröffentlichungsdatum.textContent  = "jahr";
-        kategorie.textContent  = "text";
+    else if (film == "The Amazing Spider-Man 2: Rise Of Electro") {
+        filmDetailsImg.src = "src/preview/TheAmazingSpider-Man2_RiseOfElectro.jpg";
+        filmTitle.textContent  = "The Amazing Spider-Man 2: Rise Of Electro";
+        platform.textContent  = "Auf Netflix";
+        dauer.textContent  = "2h 22min";
+        altersfreigabe.textContent  = "FSK 12";
+        veröffentlichungsdatum.textContent  = "2014";
+        kategorie.textContent  = "Action/Abenteuer";
         gegucktDatum.remove();
     }
-    else if (film == "name") {
-        filmDetailsImg.src = "src/preview";
-        filmTitle.textContent  = "name";
-        platform.textContent  = "text";
-        dauer.textContent  = "zeit";
-        altersfreigabe.textContent  = "FSK";
-        veröffentlichungsdatum.textContent  = "jahr";
-        kategorie.textContent  = "text";
+    else if (film == "Jurassic World: Ein neues Zeitalter") {
+        filmDetailsImg.src = "src/preview/JurassicWorld_EinNeuesZeitalter.jpg";
+        filmTitle.textContent  = "Jurassic World: Ein neues Zeitalter";
+        platform.textContent  = "Zu Hause";
+        dauer.textContent  = "2h 26min";
+        altersfreigabe.textContent  = "FSK 12";
+        veröffentlichungsdatum.textContent  = "2022";
+        kategorie.textContent  = "Action/Sci-Fi";
         gegucktDatum.remove();
     }
     else if (film == "name") {
@@ -391,12 +391,12 @@ function filmDetailsAnzeigen(film) {
         gegucktDatum.remove();
     }
 
-    title.style.display = "none";
-    filmeBox.style.display = "none";
-    filmDetails.style.display = "block";
+    // title.style.display = "none";
+    // filmeBox.style.display = "none";
+    // filmDetails.style.display = "block";
 
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-    });
+    // window.scrollTo({
+    //     top: 0,
+    //     behavior: "smooth"
+    // });
 }

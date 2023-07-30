@@ -56,6 +56,9 @@ body {
     transition-duration: 0.4s;
 }
 
+#nichtGegucktBtn {
+    font-size: 12px;
+}
 #nichtGegucktBox, #gegucktBox {
     width: 200px;
     height: auto;

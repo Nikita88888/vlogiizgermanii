@@ -19,6 +19,18 @@ kategorie = document.getElementById("kategorie");
 gegucktDatum = document.getElementById("gegucktDatum");
 
 
+//
+const anzahlFilmeNichtGeguckt = nichtGegucktBox.children.length;
+nichtGegucktBtn.textContent = "Nicht Geguckt (" + anzahlFilmeNichtGeguckt + ")";
+if (anzahlFilmeNichtGeguckt >= 10) {
+    nichtGegucktBtn.style.fontSize = "11px";
+}
+
+const anzahlFilmeGeguckt = gegucktBox.children.length;
+gegucktBtn.textContent = "Geguckt (" + anzahlFilmeGeguckt + ")";
+//
+
+
 function menuBtn(selected) {
     if (selected == "nichtGeguckt") {
         nichtGegucktBtn.style.background = "#00b4d8";

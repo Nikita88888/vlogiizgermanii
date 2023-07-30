@@ -196,6 +196,30 @@ body {
     background: #00b4d8;
 }
 
+#zusammenSeitTimerBox {
+    width: 250px;
+    height: auto;
+    background-color: #0077b6;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+    border: 2px solid #00b4d8;
+    box-shadow: 12px 12px 2px 1px rgba(0, 119, 182, .5);
+    color: white;
+    text-align: center;
+}
+#zusammenSeitTimerBox span:first-child{
+    font-size: 25px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+}
+
 /* .footer {
     position: fixed;
     left: 0;

@@ -2,6 +2,8 @@ fotosBtn = document.getElementById("fotosBtn");
 filmeListeAnschauenBtn = document.getElementById("filmeListeAnschauenBtn");
 dreiUndZwanzig_btn = document.getElementById("dreiUndZwanzig_btn");
 dreiUndZwanzig_text = document.getElementById("dreiUndZwanzig_text");
+neunUndDreißig_btn = document.getElementById("neunUndDreißig_btn");
+neunUndDreißig_text = document.getElementById("neunUndDreißig_text");
 
 fotosBtn.onclick = function () {
     if (confirm("Warnung. Die Website, auf die du weiter geleitet wirst lädt direkt viele Fotos und das verbraucht Mobile daten. Willst du wirklich fortfahren?")) {
@@ -25,6 +27,23 @@ dreiUndZwanzig_btn.onclick = function () {
             alert("Das Password ist Richtig.")
             dreiUndZwanzig_btn.style.display = "none";
             dreiUndZwanzig_text.style.display = "block";
+        }
+        else {
+            alert("Das Password ist Falsch.")
+        }
+    }
+}
+
+neunUndDreißig_btn.onclick = function () {
+    if (confirm("Dieser Text ist mit dem Master Key geschlossen. Füge den Master Key ein, um den Text anzuzeigen.")) {
+        neunUndDreißig_password_input_value = prompt("Master Key eingeben:")
+        if (neunUndDreißig_password_input_value == "") {
+            alert("Das Eingabefeld ist Leer.")
+        }
+        else if (neunUndDreißig_password_input_value == "08.06.2006" || neunUndDreißig_password_input_value == "08062006") {
+            alert("Das Password ist Richtig.")
+            neunUndDreißig_btn.style.display = "none";
+            neunUndDreißig_text.style.display = "block";
         }
         else {
             alert("Das Password ist Falsch.")

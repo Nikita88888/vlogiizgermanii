@@ -1,9 +1,24 @@
 fotosBtn = document.getElementById("fotosBtn");
 filmeListeAnschauenBtn = document.getElementById("filmeListeAnschauenBtn");
+
 dreiUndZwanzig_btn = document.getElementById("dreiUndZwanzig_btn");
 dreiUndZwanzig_text = document.getElementById("dreiUndZwanzig_text");
+
 neunUndDreißig_btn = document.getElementById("neunUndDreißig_btn");
 neunUndDreißig_text = document.getElementById("neunUndDreißig_text");
+
+vierundvierzig_btn = document.getElementById("vierundvierzig_btn");
+vierundvierzig_text = document.getElementById("vierundvierzig_text");
+
+fünfundvierzig_btn = document.getElementById("fünfundvierzig_btn");
+fünfundvierzig_text = document.getElementById("fünfundvierzig_text");
+
+sechsundvierzig_btn = document.getElementById("sechsundvierzig_btn");
+sechsundvierzig_text = document.getElementById("sechsundvierzig_text");
+
+siebenundvierzig_btn = document.getElementById("siebenundvierzig_btn");
+siebenundvierzig_text = document.getElementById("siebenundvierzig_text");
+
 
 fotosBtn.onclick = function () {
     if (confirm("Warnung. Die Website, auf die du weiter geleitet wirst lädt direkt viele Fotos und das verbraucht Mobile daten. Willst du wirklich fortfahren?")) {
@@ -51,6 +66,75 @@ neunUndDreißig_btn.onclick = function () {
     }
 }
 
+vierundvierzig_btn.onclick = function () {
+    if (confirm("Dieser Text ist mit dem Master Key geschlossen. Füge den Master Key ein, um den Text anzuzeigen.")) {
+        vierundvierzig_password_input_value = prompt("Master Key eingeben:")
+        if (vierundvierzig_password_input_value == "") {
+            alert("Das Eingabefeld ist Leer.")
+        }
+        else if (vierundvierzig_password_input_value == "08.06.2006" || vierundvierzig_password_input_value == "08062006") {
+            alert("Das Password ist Richtig.")
+            vierundvierzig_btn.style.display = "none";
+            vierundvierzig_text.style.display = "block";
+        }
+        else {
+            alert("Das Password ist Falsch.")
+        }
+    }
+}
+
+fünfundvierzig_btn.onclick = function () {
+    if (confirm("Dieser Text ist mit dem Master Key geschlossen. Füge den Master Key ein, um den Text anzuzeigen.")) {
+        fünfundvierzig_password_input_value = prompt("Master Key eingeben:")
+        if (fünfundvierzig_password_input_value == "") {
+            alert("Das Eingabefeld ist Leer.")
+        }
+        else if (fünfundvierzig_password_input_value == "08.06.2006" || fünfundvierzig_password_input_value == "08062006") {
+            alert("Das Password ist Richtig.")
+            fünfundvierzig_btn.style.display = "none";
+            fünfundvierzig_text.style.display = "block";
+        }
+        else {
+            alert("Das Password ist Falsch.")
+        }
+    }
+}
+
+sechsundvierzig_btn.onclick = function () {
+    if (confirm("Dieser Text ist mit dem Master Key geschlossen. Füge den Master Key ein, um den Text anzuzeigen.")) {
+        sechsundvierzig_password_input_value = prompt("Master Key eingeben:")
+        if (sechsundvierzig_password_input_value == "") {
+            alert("Das Eingabefeld ist Leer.")
+        }
+        else if (sechsundvierzig_password_input_value == "08.06.2006" || sechsundvierzig_password_input_value == "08062006") {
+            alert("Das Password ist Richtig.")
+            sechsundvierzig_btn.style.display = "none";
+            sechsundvierzig_text.style.display = "block";
+        }
+        else {
+            alert("Das Password ist Falsch.")
+        }
+    }
+}
+
+siebenundvierzig_btn.onclick = function () {
+    if (confirm("Dieser Text ist mit dem Master Key geschlossen. Füge den Master Key ein, um den Text anzuzeigen.")) {
+        siebenundvierzig_password_input_value = prompt("Master Key eingeben:")
+        if (siebenundvierzig_password_input_value == "") {
+            alert("Das Eingabefeld ist Leer.")
+        }
+        else if (siebenundvierzig_password_input_value == "08.06.2006" || siebenundvierzig_password_input_value == "08062006") {
+            alert("Das Password ist Richtig.")
+            siebenundvierzig_btn.style.display = "none";
+            siebenundvierzig_text.style.display = "block";
+        }
+        else {
+            alert("Das Password ist Falsch.")
+        }
+    }
+}
+
+//----------Reloader----------
 
 document.addEventListener("visibilitychange", function() {
     if (document.visibilityState === "hidden") {
@@ -59,6 +143,8 @@ document.addEventListener("visibilitychange", function() {
         location.reload()
     }
 });
+
+//----------Ende----------
 
 
 //----------zusammenSeitTimer----------

@@ -101,7 +101,7 @@ body {
     text-decoration: none;
     color: white;
 }
-#dreiUndZwanzig_btn, #neunUndDreißig_btn {
+#dreiUndZwanzig_btn, #neunUndDreißig_btn, #vierundvierzig_btn, #fünfundvierzig_btn, #sechsundvierzig_btn, #siebenundvierzig_btn {
     width: 250px;
     height: 25px;
     margin-top: 5px;
@@ -111,7 +111,7 @@ body {
     color: white;
     transition-duration: 0.4s;
 }
-#dreiUndZwanzig_btn:hover, #neunUndDreißig_btn:hover {
+#dreiUndZwanzig_btn:hover, #neunUndDreißig_btn:hover, #vierundvierzig_btn:hover, #fünfundvierzig_btn:hover, #sechsundvierzig_btn:hover, #siebenundvierzig_btn:hover {
     background: #00b4d8;
 }
 

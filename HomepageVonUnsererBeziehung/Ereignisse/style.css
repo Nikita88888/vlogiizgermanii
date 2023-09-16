@@ -1,0 +1,16 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+} 
+
+#liste {
+    margin-top: 25px;
+}
+#liste ol {
+    list-style-position: inside;
+    font-size: 15px;
+}
+#liste a {
+    text-decoration: none;
+    color: white;
+}

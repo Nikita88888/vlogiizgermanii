@@ -1,0 +1,20 @@
+/* Die Scrollbar */
+::-webkit-scrollbar {
+  width: 10px; /* Breite der Scrollbar */
+}
+
+/* Hintergrund der Scrollbar */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Griff der Scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: #00b4d8;
+  border-radius: 5px;
+}
+
+/* Hover-Stil für den Griff der Scrollbar */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #0077b6;
+}

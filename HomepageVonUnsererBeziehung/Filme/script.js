@@ -18,6 +18,39 @@ veröffentlichungsdatum = document.getElementById("veröffentlichungsdatum");
 kategorie = document.getElementById("kategorie");
 gegucktDatum = document.getElementById("gegucktDatum");
 
+zufallsgeneratorBtn = document.getElementById("zufallsgeneratorBtn");
+
+
+//----------Zufallsgenerator----------
+zufallsgeneratorBtn.onclick = function () {
+    // Definiere deine Liste von Elementen
+    const elemente = ["No Hard Feelings", "Transformers: Aufstieg der Bestien",
+                    "The Flash", "Culpa Mia – Meine Schuld", "The Amazing Spider-Man", "The Amazing Spider-Man 2: Rise Of Electro",
+                    "Jurassic World: Ein neues Zeitalter", "Chaos im Netz", "Cars", "Cars 2", "Cars 3", "Free Guy", "365 Tage",
+                    "Miraculous: Ladybug & Cat Noir - Der Film", "Strange World", "Maze Runner 3: Die Auserwählten in der Todeszone",
+                    "Mr. & Mrs. Smith", "Guardians of the Galaxy Vol. 3", "Kindsköpfe", "Kindsköpfe 2", "Avengers: Endgame",
+                    "Mortal Kombat", "Spider-Man: Far From Home", "Spider-Man: Homecoming", "Sex Appeal", "Through my Window – Ich sehe nur dich",
+                    "Through my Window – Über das Meer", "Baywatch", "Deadpool", "Deadpool 2", "After Passion", "After Truth", "After Love",
+                    "After Everything", "Thor: Love and Thunder", "Five Nights at Freddy’s", "Taxi 4", "The Equalizer", "The Equalizer 2",
+                    "The Equalizer 3 – The Final Chapter", "Titanic", "I, Robot", "Iron Man", "Iron Man 2", "Iron Man 3",
+                    "Avatar – Aufbruch nach Pandora"];
+
+    // Funktion, um ein zufälliges Element aus der Liste auszuwählen
+    function zufallAuswaehlen() {
+        const zufallsIndex = Math.floor(Math.random() * elemente.length);
+        return elemente[zufallsIndex];
+    }
+
+    // Funktion, um das Ergebnis in das HTML-Dokument einzufügen
+    function ergebnisAnzeigen() {
+        const ergebnisElement = document.getElementById("zufallsgeneratorBtn");
+        ergebnisElement.textContent = zufallAuswaehlen();
+    }
+
+    // Rufe die Funktion auf, um das Ergebnis beim Laden der Seite anzuzeigen
+    ergebnisAnzeigen();
+}
+//----------Ende----------
 
 //
 const anzahlFilmeNichtGeguckt = nichtGegucktBox.children.length;

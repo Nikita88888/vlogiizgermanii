@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filme</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../src/css/blueColorTheme.css">
     <link rel="stylesheet" href="../src/css/scrollbar.css">
     <script src="script.js" defer></script>
 </head>
@@ -66,6 +67,7 @@
             <div id="preview"><img src="img/IronMan.jpg" alt="IronMan" onclick="filmDetailsAnzeigen()"></div>
             <div id="preview"><img src="img/IronMan2.jpg" alt="IronMan2" onclick="filmDetailsAnzeigen()"></div>
             <div id="preview"><img src="img/IronMan3.jpg" alt="IronMan3" onclick="filmDetailsAnzeigen()"></div>
+            <div id="preview"><img src="img/Avatar_AufbruchNachPandora.jpg" alt="Avatar_AufbruchNachPandora" onclick="filmDetailsAnzeigen()"></div>
         </div>
         
         <div id="gegucktBox" style="display: none;">
@@ -99,6 +101,18 @@
             <div id="preview"><img src="img/Oppenheimer.jpg" alt="Oppenheimer" onclick="filmDetailsAnzeigen()"></div>
             <div id="preview"><img src="img/RalphReichts.jpg" alt="RalphReichts" onclick="filmDetailsAnzeigen()"></div>
         </div>
+    </div>
+
+    <div class="box">
+        <span class="boxTitleSpan">Zufallsgenerator</span>
+
+        <br> <br>
+
+        <span>Wir wissen nicht, was wir gucken sollen, dann soll das der Zufallsgenerator entscheiden.</span>
+
+        <br> <br>
+
+        <button class="btn" id="zufallsgeneratorBtn">Starte den Zufallsgenerator</button>
     </div>
     
     <div id="filmDetails" style="display: none;">

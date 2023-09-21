@@ -48,3 +48,24 @@ body {
     color: white;
     text-align: center;
 }
+
+.boxTitleSpan {
+    font-size: 25px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+}
+
+.btn {
+    width: 250px;
+    height: 25px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 2px solid #00b4d8;
+    background: #0096c7;
+    color: white;
+    transition-duration: 0.4s;
+}
+.btn:hover {
+    background: #00b4d8;
+}

@@ -33,7 +33,7 @@ zufallsgeneratorBtn.onclick = function () {
                     "Through my Window – Über das Meer", "Baywatch", "Deadpool", "Deadpool 2", "After Passion", "After Truth", "After Love",
                     "After Everything", "Thor: Love and Thunder", "Five Nights at Freddy’s", "Taxi 4", "The Equalizer", "The Equalizer 2",
                     "The Equalizer 3 – The Final Chapter", "Titanic", "I, Robot", "Iron Man", "Iron Man 2", "Iron Man 3",
-                    "Avatar – Aufbruch nach Pandora"];
+                    "Avatar – Aufbruch nach Pandora", "Paw Patrol – Der Mighty Kinofilm"];
 
     // Funktion, um ein zufälliges Element aus der Liste auszuwählen
     function zufallAuswaehlen() {

@@ -25,7 +25,7 @@ zufallsgeneratorBtn = document.getElementById("zufallsgeneratorBtn");
 zufallsgeneratorBtn.onclick = function () {
     // Definiere deine Liste von Elementen
     const elemente = ["No Hard Feelings", "Transformers: Aufstieg der Bestien",
-                    "The Flash", "Culpa Mia – Meine Schuld", "The Amazing Spider-Man", "The Amazing Spider-Man 2: Rise Of Electro",
+                    "The Flash", "Culpa Mia – Meine Schuld",
                     "Jurassic World: Ein neues Zeitalter", "Chaos im Netz", "Cars", "Cars 2", "Cars 3", "Free Guy", "365 Tage",
                     "Miraculous: Ladybug & Cat Noir - Der Film", "Strange World", "Maze Runner 3: Die Auserwählten in der Todeszone",
                     "Mr. & Mrs. Smith", "Guardians of the Galaxy Vol. 3", "Kindsköpfe", "Kindsköpfe 2", "Avengers: Endgame",
@@ -33,7 +33,8 @@ zufallsgeneratorBtn.onclick = function () {
                     "Through my Window – Über das Meer", "Baywatch", "Deadpool", "Deadpool 2", "After Passion", "After Truth", "After Love",
                     "After Everything", "Thor: Love and Thunder", "Five Nights at Freddy’s", "Taxi 4", "The Equalizer", "The Equalizer 2",
                     "The Equalizer 3 – The Final Chapter", "Titanic", "I, Robot", "Iron Man", "Iron Man 2", "Iron Man 3",
-                    "Avatar – Aufbruch nach Pandora", "Paw Patrol – Der Mighty Kinofilm"];
+                    "Avatar – Aufbruch nach Pandora", "Paw Patrol – Der Mighty Kinofilm", "Trolls – Gemeinsam Stark",
+                    "Aquaman", "Aquaman and the Lost Kingdom"];
 
     // Funktion, um ein zufälliges Element aus der Liste auszuwählen
     function zufallAuswaehlen() {

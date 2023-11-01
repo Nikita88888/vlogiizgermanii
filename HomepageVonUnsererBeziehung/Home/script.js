@@ -77,7 +77,7 @@ function updateCountup() {
 
     // Hier fügen wir nach jedem Komma einen Zeilenumbruch <br> hinzu
     const zusammenSeitFormatted = zusammenSeitText
-      .replace(/,/g, ",<br>")
+      .replace(/,/g, "<br>")
       .replace(/:/g, ":<br>");
 
     document.getElementById("zusammenSeitTimer").innerHTML = zusammenSeitFormatted;

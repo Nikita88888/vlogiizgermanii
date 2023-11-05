@@ -34,7 +34,8 @@ zufallsgeneratorBtn.onclick = function () {
                     "After Everything", "Thor: Love and Thunder", "Five Nights at Freddy’s", "Taxi 4", "The Equalizer", "The Equalizer 2",
                     "The Equalizer 3 – The Final Chapter", "Titanic", "I, Robot", "Iron Man", "Iron Man 2", "Iron Man 3",
                     "Avatar – Aufbruch nach Pandora", "Paw Patrol – Der Mighty Kinofilm", "Trolls – Gemeinsam Stark",
-                    "Aquaman", "Aquaman and the Lost Kingdom"];
+                    "Aquaman", "Aquaman and the Lost Kingdom", "Hotel Transsilvanien 2", "Hotel Transsilvanien 3 - Ein Monster Urlaub",
+                    "Hotel Transsilvanien 4 - Eine Monster Verwandlung", "Pixels"];
 
     // Funktion, um ein zufälliges Element aus der Liste auszuwählen
     function zufallAuswaehlen() {
